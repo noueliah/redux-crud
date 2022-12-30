@@ -13,4 +13,7 @@ export const userSlice = createSlice({
 });
 
 export const { addUser } = userSlice.actions;
+
+// the actions are all the functions that can be used to alter the state
+
 export default userSlice.reducer; // TODO: este export está mal

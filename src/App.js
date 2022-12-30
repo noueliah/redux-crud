@@ -29,7 +29,7 @@ function App() {
         />
         <button
           onClick={() => {
-            dispatch(addUser({ id: 0, name, username }));
+            dispatch(addUser({ id: 0, name: name, username: username }));
           }}
         >
           Add User
